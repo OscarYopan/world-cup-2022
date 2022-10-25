@@ -24,11 +24,13 @@ body{
   align-items: center;
   justify-content: center;
   height: 100vh;
-  overflow: hidden;
 }
 
 .container {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 h1 {
@@ -54,7 +56,7 @@ h1 {
   background-color: white;
   border: none;
   border-radius: 1rem;
-  width: 20rem;
+  width: 25rem;
 }
 
 .group-container ul li {
