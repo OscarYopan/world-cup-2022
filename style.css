@@ -4,16 +4,38 @@
   box-sizing: border-box;
 }
 
+:root {
+  --color1: #0A21A6;
+  --color2: #3243A6;
+  --color3: #144027;
+  --color4: #F2C84B;
+  --color5: #A64E2E;
+}
+
 html{
   font-family: 'Roboto', sans-serif;
   font-size: 62.5%;
 }
 
 body{
+  background-color: var(--color3);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
   overflow: hidden;
+}
+
+.container {
+  display: flex;
+}
+
+.group-container {
+  margin: 2rem;
+  background-color: var(--color2);
+  padding: 2rem 1rem;
+  border: none;
+  border-radius: 1rem;
+  max-width: 40rem;
 }
