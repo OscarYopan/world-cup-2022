@@ -31,11 +31,47 @@ body{
   display: flex;
 }
 
+h1 {
+  font-size: 4rem;
+  color: var(--color4);
+}
+
+.head-group-container {
+  background-color: var(--color4);
+  width: 100%;
+  padding: .5rem 0;
+  border-radius: 1rem 1rem 0 0;
+  text-align: center;
+}
+
+.head-group-container h3{
+  font-size: 1.6rem;
+  color: var(--color5);
+}
+
 .group-container {
   margin: 2rem;
-  background-color: var(--color2);
-  padding: 2rem 1rem;
+  background-color: white;
   border: none;
   border-radius: 1rem;
-  max-width: 40rem;
+  width: 20rem;
+}
+
+.group-container ul li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--color3);
+}
+
+.group-container ul li p {
+  font-size: 1.4rem;
+}
+
+.group-container ul li img{
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  object-fit: cover;
+  margin: 1rem 2rem;
 }
