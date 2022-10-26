@@ -1,4 +1,4 @@
-const teams = [
+export let teams = [
   {
     id: 1,
     name: 'Qatar',
