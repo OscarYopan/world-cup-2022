@@ -1,3 +1,8 @@
-import { teams } from "./teamObject";
+// import { teams } from "./teamObject";
 
-console.log(teams);
+// console.log(teams);
+
+import squads from "./teamObject"
+import default squads
+
+console.log(squads.name);

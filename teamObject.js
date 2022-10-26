@@ -480,3 +480,12 @@ export let teams = [
     tie: 0,
   },
 ];
+
+
+export default class squads {
+  constructor(name, flag, grupo) {
+    this.name = 'Holanda',
+    this.flag = 'Hplanda Flag'
+    this.grupo = 'A'
+  }
+}
