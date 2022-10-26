@@ -1,3 +1,8 @@
+@font-face {
+  font-family: qatar2022;
+  src: url(assets/font/Qatar2022/Qatar2022Arabic-Bold.ttf);
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -10,6 +15,13 @@
   --color3: #144027;
   --color4: #F2C84B;
   --color5: #A64E2E;
+
+  --color6: #590B19;
+  --color7: #731D2C;
+  --color8: #8C2A3C;
+  --color9: #BF99A0;
+  --color10: #D9D9D9;
+  /* https://color.adobe.com/pt/search?q=Qatar%20world%20cup */
 }
 
 html{
@@ -37,6 +49,7 @@ body{
 h1 {
   font-size: 5rem;
   color: var(--color4);
+  font-family: 'qatar2022';
 }
 
 .head-group-container {
