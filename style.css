@@ -92,3 +92,56 @@ h1 {
   object-fit: cover;
   margin: 1rem 2rem;
 }
+
+.match-day {
+  background-color: rgb(0, 0, 0, 0.6);
+  width: 35rem;
+  margin: 2rem;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  border-radius: .5rem;
+}
+
+.match-day ul h3 {
+  font-size: 1.6rem;
+}
+
+.match-day ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid white;
+}
+
+.match-day ul li img {
+  border-radius: .5rem;
+  width: 3rem;
+  height: 3rem;
+  object-fit: cover;
+  margin: 1rem 2rem;
+}
+
+.match-day ul li p {
+  font-size: 1.4rem;
+}
+
+.match-day ul li input {
+  width: 3rem;
+  height: 3rem;
+  text-align: center;
+  font-size: 1.4rem;
+  font-family: inherit;
+  margin: 0 1rem;
+  border-radius: .5rem;
+}
+
+/*Remove arrow from input box*/
+.match-day ul li input::-webkit-outer-spin-button,
+.match-day input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.match-day ul li input[type=number] {
+  -moz-appearance: textfield;
+}
