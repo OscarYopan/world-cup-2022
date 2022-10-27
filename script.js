@@ -1,8 +1,9 @@
-// import { teams } from "./teamObject";
+const matachs = [
+  {
 
-// console.log(teams);
+  },
+]
 
-import squads from "./teamObject"
-import default squads
+const groups = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']
 
-console.log(squads.name);
+let idx = 0
