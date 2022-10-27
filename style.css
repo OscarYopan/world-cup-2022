@@ -31,12 +31,12 @@ html{
 
 body{
   background-color: var(--color3);
-  background: url('https://img.freepik.com/free-vector/football-2022-tournament-cup-background_206725-604.jpg?w=1060&t=st=1666742836~exp=1666743436~hmac=c5079856a917f5b9d97d7df1ff2dc78ef942118daafe6e24798f5cf60e1581ab') no-repeat center/cover;
+  background: url('https://img.freepik.com/free-vector/football-2022-tournament-cup-background_206725-604.jpg?w=1060&t=st=1666742836~exp=1666743436~hmac=c5079856a917f5b9d97d7df1ff2dc78ef942118daafe6e24798f5cf60e1581ab') center/cover;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  width: 100%;
 }
 
 .container {
@@ -50,6 +50,7 @@ h1 {
   font-size: 5rem;
   color: var(--color4);
   font-family: 'qatar2022';
+  text-align: center;
 }
 
 .head-group-container {
@@ -93,6 +94,12 @@ h1 {
   margin: 1rem 2rem;
 }
 
+.match-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .match-day {
   background-color: rgb(0, 0, 0, 0.6);
   width: 35rem;
@@ -107,6 +114,13 @@ h1 {
   font-size: 1.6rem;
 }
 
+.match-day ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .match-day ul li {
   display: flex;
   align-items: center;
@@ -116,8 +130,8 @@ h1 {
 
 .match-day ul li img {
   border-radius: .5rem;
-  width: 3rem;
-  height: 3rem;
+  width: 2rem;
+  height: 2rem;
   object-fit: cover;
   margin: 1rem 2rem;
 }
@@ -134,6 +148,7 @@ h1 {
   font-family: inherit;
   margin: 0 1rem;
   border-radius: .5rem;
+  padding: 0;
 }
 
 /*Remove arrow from input box*/
