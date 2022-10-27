@@ -51,6 +51,7 @@ h1 {
   color: var(--color4);
   font-family: 'qatar2022';
   text-align: center;
+  margin: 4rem 0 2rem 0;
 }
 
 .head-group-container {
@@ -112,6 +113,7 @@ h1 {
 
 .match-day ul h3 {
   font-size: 1.6rem;
+  color: var(--color4);
 }
 
 .match-day ul {
