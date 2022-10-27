@@ -102,7 +102,7 @@ h1 {
 }
 
 .match-day {
-  background-color: rgb(0, 0, 0, 0.6);
+  background-color: rgb(0, 0, 0, 0.4);
   width: 35rem;
   margin: 2rem;
   color: white;
@@ -114,6 +114,7 @@ h1 {
 .match-day ul h3 {
   font-size: 1.6rem;
   color: var(--color4);
+  margin-bottom: 1rem;
 }
 
 .match-day ul {
