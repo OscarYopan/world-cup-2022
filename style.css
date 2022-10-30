@@ -131,6 +131,10 @@ h1 {
   border-bottom: 1px solid white;
 }
 
+.match-day ul li:hover {
+  background-color: rgb(255, 255, 255, 0.3);
+}
+
 .match-day ul li img {
   border-radius: .5rem;
   width: 2rem;
