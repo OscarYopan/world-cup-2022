@@ -452,7 +452,7 @@ export let teams = [
   {
     id: 31,
     name: 'Uruguai',
-    flag: 'https://www.worldometers.info/img/flags/small/tn_uy-flag.gi',
+    flag: 'https://www.worldometers.info/img/flags/small/tn_uy-flag.gif',
     group: 'H',
     points: 0,
     gp: 0,
