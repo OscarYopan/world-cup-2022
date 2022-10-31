@@ -129,6 +129,7 @@ h1 {
   align-items: center;
   justify-content: center;
   border-bottom: 1px solid white;
+  margin-right: 2rem;
 }
 
 .match-day ul li:hover {
