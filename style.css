@@ -176,3 +176,27 @@ h1 {
 .match-day ul li input[type=number] {
   -moz-appearance: textfield;
 }
+
+@media (max-width: 500px) {
+  .match-day {
+    width: 100vw;
+  }
+
+  .match-day ul li {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .match-day ul li p {
+    width: 5rem;
+  }
+
+  .match-day ul li p.versus {
+    width: 2rem;
+  }
+
+  .match-day ul li h5 {
+    margin-right: 1rem;
+  }
+}
